@@ -17,7 +17,7 @@ def case_1_1(self, fullscreen):
     self.driver.find_element_by_xpath('.//a[@href="/profile"]').click()
     time.sleep(2)
 
-    self.page.waitForElementVisible('.//h3[@class="profile-header__item heading heading-3"]', 5)
+    self.driver.find_element_by_xpath('.//h3[@class="profile-header__item heading heading-3"]')
     self.page.loger('Осуществлён переход в личный кабинет')
     time.sleep(1)
 
