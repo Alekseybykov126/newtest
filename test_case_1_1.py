@@ -27,6 +27,7 @@ def case_1_1(self, fullscreen):
 
     self.driver.waitForElementVisible('.//div[@class="form logout-form"]')
     self.page.loger('Появилась форма "Выйти из аккаунта?"')
+    time.sleep(2)
 
     self.page.loger('Шаг 7. Подтверждение выхода из акаунта')
     self.driver.find_element_by_xpath('.//button[@type="button"]').click()
