@@ -25,7 +25,7 @@ def case_1_1(self, fullscreen):
     self.driver.find_element_by_xpath('.//a[@href="/pm/logout"]').click()
     time.sleep(1)
 
-    self.driver.waitForElementVisible('.//div[@class="form logout-form"]')
+    self.driver.find_element_by_xpath('.//div[@class="form logout-form"]')
     self.page.loger('Появилась форма "Выйти из аккаунта?"')
     time.sleep(2)
 
