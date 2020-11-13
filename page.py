@@ -1,7 +1,7 @@
 from lib2to3.pgen2 import driver
 
 #import requests
-import self as self
+#import self as self
 from selenium.webdriver.chrome import options
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium import webdriver
