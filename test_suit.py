@@ -1,7 +1,7 @@
 from .page import *
 from .test_case_1_1 import case_1_1
 from .test_case_1_2 import case_1_2
-
+from .test_case_1_3 import case_1_3
 
 class Test:
     def setup(self):
@@ -28,3 +28,6 @@ class Test:
 
     def test_case_1_2(self):
         case_1_2(self, 0)
+
+    def test_case_1_3(self):
+        case_1_3(self, 0)
